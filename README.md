@@ -1,7 +1,7 @@
 ![Logo](https://raw.github.com/neopixl/PixlLogger/master/Sample/PixlLogger/res/drawable-xxhdpi/small.png ) PixlLogger
 ==========
 
-The better way to log your application ! (tags are setted alone !) 
+The better way to log your Android application ! (tags are setted alone !) 
 
 PixlLogger is an extract of the framework Droid Parts
 
