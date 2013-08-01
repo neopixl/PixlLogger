@@ -9,8 +9,9 @@ Screenshot
 How use it ?
 ==========
 
-1. Import PixlLogger-1.0.0-SNAPSHOT.jar in your project.
-2. Add meta-data in your AndroidManifest file:
+1 .  Import PixlLogger-1.0.0-SNAPSHOT.jar in your project.
+
+2 .  Add meta-data in your AndroidManifest file:
 
 ```xml
 
@@ -19,4 +20,16 @@ android:name="neopixl_dependency_provider"
 android:value="com.neopixl.pushpixl.core.injector.NPDependencyProvider" 
 />
 
+```
+
+3 . Use it
+
+```java
+public class TestClass {
+ 
+  @Override
+	public void myMethods() {
+		NPLog.e("");
+	}
+}
 ```
