@@ -14,18 +14,7 @@ How use it ?
 
 1 .  Import [PixlLogger-1.0.0-SNAPSHOT.jar](https://github.com/neopixl/PixlLogger/raw/master/Sample/PixlLogger/libs/PixlLogger-1.0.0-SNAPSHOT.jar "PixlLogger-1.0.0-SNAPSHOT.jar") in your project.
 
-2 .  Add meta-data in your AndroidManifest file:
-
-```xml
-
-<meta-data
-android:name="neopixl_dependency_provider"
-android:value="com.neopixl.logger.inject.NPDependencyProvider" 
-/>
-
-```
-
-3 . Use it
+2 . Use it
 
 ```java
 public class TestClass {
