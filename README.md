@@ -20,7 +20,7 @@ How use it ?
 
 <meta-data
 android:name="neopixl_dependency_provider"
-android:value="com.neopixl.pushpixl.core.injector.NPDependencyProvider" 
+android:value="com.neopixl.logger.inject.NPDependencyProvider" 
 />
 
 ```
